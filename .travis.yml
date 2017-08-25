@@ -1,3 +1,5 @@
+notifications:
+  slack: 2017-scc-assignment:KWCjZDLsBa9rPtuUif57YPHl
 language: node_js
 node_js:
   - 8
