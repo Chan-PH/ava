@@ -1,4 +1,19 @@
 build: off
+notifications:
+- provider: Slack
+  incoming_webhook: https://hooks.slack.com/services/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
+  channel: ava
+  template: AppVeyor CI automation
+  on_build_success: true
+  on_build_failure: true
+  on_build_status_changed: true
+- provider: Email
+  to:
+  - mysteryman@live.com.my
+  subject: Build status of AVA GitHub Project
+  on_build_success: true
+  on_build_failure: true
+  on_build_status_changed: false
 cache:
   - '%APPDATA%\npm-cache'
 clone_depth: 1
