@@ -1,3 +1,3 @@
-test(function name(SCC){
-  SCC.pass();
+test(SCC (t){
+  t.pass();
   });
