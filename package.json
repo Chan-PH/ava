@@ -55,7 +55,6 @@
 		"types/generated.d.ts"
 	],
 	"keywords": [
-		"🦄",
 		"test",
 		"runner",
 		"testing",
@@ -70,6 +69,7 @@
 		"mocha",
 		"tape",
 		"tap",
+		"macro"
 		"qunit",
 		"jasmine",
 		"babel",
@@ -85,6 +85,7 @@
 		"generators",
 		"yield",
 		"observable",
+		"callback",
 		"unit",
 		"observables",
 		"snapshot",
