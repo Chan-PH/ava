@@ -1,3 +1,5 @@
-test(SCC (t){
+import test from 'ava';
+
+test('SCC' ,t => {
   t.pass();
   });
