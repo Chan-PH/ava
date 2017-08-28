@@ -1,1 +1,2 @@
 last test on Travis CI due to successful Travis CI build after the push by the original contributors.
+test on COVERALLS
